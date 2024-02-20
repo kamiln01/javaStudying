@@ -10,7 +10,7 @@ public class ExceptionsCheck {
         int age = getAge.nextInt();
 
         if (age >= 18) {
-            System.out.println("Jestes pelnoletni. ");
+            System.out.println("You are of legal age. ");
         } else if (age < 0){
             throw new InvalidAgeException("Your age is not valid. ");
         }
